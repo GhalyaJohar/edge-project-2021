@@ -8,3 +8,4 @@ print("python project")
 #6-print the seat chosen (seat A3) (it will be deleted from the og list)
 #7-available food (butter popcorn caramel popcorn, cheese popcorn, nachos, hotdog, fries, slush, water, coca cola, sprite )
 #8-do you want the food delivered to your seat or pickup.
+#Thank you, enjoy your movie 
