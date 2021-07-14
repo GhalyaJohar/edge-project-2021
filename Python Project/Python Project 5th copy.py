@@ -62,7 +62,7 @@ while command!="exit":
             print(fooddrink)
 
     elif command == "FoodDelivery":
-        confirm = input("Do you want the food delivered to your seat or do you want to pick it up?")
+        confirm = input("Do you want the food delivered to your seat or do you want to pick it up? ")
         if confirm == "seat delivery":
             print("Your food will be delivered to your seat!")
         if confirm == "pickup":
@@ -72,12 +72,11 @@ while command!="exit":
         chose=input("Which Movie did you decide on? ")
         if chose in Movies:
             if chose in movies_18:
-                age=input("This movie is +18, How old are you?")
+                age=input("This movie is +18, How old are you? ")
                 if int (age) >= 18 :
                   ChosenMovie.append(chose)
                 else :
                   print("Sorry, you are not allowed in")
-
 
     elif command == "SeatChosen":
         chose=input("Which seat did you decide on? ")
@@ -94,16 +93,16 @@ while command!="exit":
         choice=input("Which showtime is the most suitable for you? ")
         if choice in ThePurgeShowtimes:
             ChosenShowtime.append(choice)
-        if command!="choice":
-            print("Sorry, this showtime is unavailable")
+        # if command!="choice":
+        #     print("Sorry, this showtime is unavailable")
         elif choice in CruellaShowtimes:
             ChosenShowtime.append(choice)
-        if command!="choice":
-            print("Sorry, this showtime is unavailable")
+        # if command!="choice":
+        #     print("Sorry, this showtime is unavailable")
         elif choice in TheConjouringShowtimes:
             ChosenShowtime.append(choice)
-        if command!="choice":
-            print("Sorry, this showtime is unavailable")
+        # if command!="choice":
+        #     print("Sorry, this showtime is unavailable")
 
     elif command == "Ticket":
         print("Ticket:")
